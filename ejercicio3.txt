@@ -1,0 +1,22 @@
+
+INICIO
+	
+	var num
+	var numero 
+	var promedio
+	var Suma
+	suma =0
+ 
+
+	para (num=1 hasta 10) hacer 
+	Escribir"Ingrese numero"
+	Leer numero
+	suma = suma + numero
+	fin para 
+
+	promedio = suma / 10 
+	
+	Escribir " La suma es:"+suma 
+	Escribir " El promedio es:"+promedio 
+
+fin 

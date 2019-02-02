@@ -1,0 +1,16 @@
+INICIO 
+
+	var suma 
+	var numero 
+	var num 
+	num =  num + 2 
+
+	Escribir "Ingrese un numero" 
+	Leer numero 
+	
+	para(num = 0 hasta numero) hacer 
+	suma = suma + num
+	
+	Escribir " van:" + suma 
+	finpara 
+FIN 

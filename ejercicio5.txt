@@ -1,0 +1,21 @@
+INICIO 
+	var password 
+	var num 
+	si (num <=2) entonces
+	para (num =0 hasta num = 3) hacer 
+	
+	Escribir " Ingrese el password" 
+	Leer password 
+	
+	si (password = IPC1) entonces  
+	Escribir " Bienvenido " 
+		sino 
+		Escribir"Contraseña Incorrecta" 
+	fin si 
+	
+		sino
+		Escribir" Intentos maximos alcanzados" 
+	fin si 
+
+FIN 
+	

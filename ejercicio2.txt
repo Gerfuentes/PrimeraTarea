@@ -1,0 +1,24 @@
+
+INICIO
+
+	var edad 
+	var sexo
+	
+	Escribir "Ingrese su Edad"
+	Leer (edad) 
+	Escribir"Ingrese su sexo M/F"
+	Leer (sexo)
+	
+	si(edad >17) entonces 
+	Escribir"Si puede votar"
+		sino 
+		Escribir"No puede votar"
+	finsi
+
+	si(sexo = F) entonces 
+	Escribir"Usted es mujer" 
+		sino 
+		Escribir"Usted es hombre"
+	fin si 
+	
+fin 
